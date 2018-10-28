@@ -52,7 +52,7 @@ namespace lab04_2
       return *this;
     if (capacity!=source.capacity){
       capacity=source.capacity;
-      delete data;
+      delete [] data;
       data=new string[capacity];
     }
     used=source.used;
