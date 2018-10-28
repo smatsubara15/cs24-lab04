@@ -36,7 +36,7 @@ namespace lab04_2
 	for (int i=0; i<used; i++){
 	  data2[i]=data[i];
 	}
-	delete data;
+	delete [] data;
 	data=data2;
       }
         data[used] = word;
